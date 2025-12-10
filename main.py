@@ -65,3 +65,15 @@ i = 1
 while i<=10:
     print(i)
     i+=1
+
+
+
+#Function def keyword is used to create funtion
+
+def display(name, age, grade, phone,address):
+    print(name,age,grade,phone,address)
+
+display("Bhole Shankar",12,8,98023354,"Kailash -12")
+display("Mohan",34,12,9802323232,"Mathura-8")
+
+
