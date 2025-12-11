@@ -11,3 +11,11 @@ ElseIf x > y Then
 Else
     Print y; "is greater than"; x
 End If
+
+
+
+Rem loop
+For i = 1 To 10
+    Print i
+Next i
+
