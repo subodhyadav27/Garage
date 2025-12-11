@@ -178,6 +178,19 @@ C is compiler based programming language.
  }
 
 
+ //WAP to find area and perimeter of rectangle[A= l*b and P= 2(l+b)]
+
+ #include<stdio.h>
+ int main(){
+     int l, b;
+     printf("Enter length and breadth: ");
+     scanf("%d%d",&l,&b);
+     float A = l *b;
+     float P = 2*(l+b);
+     printf("Area = %f Perimeter = %f.",A,P);
+
+    return 0;
+ }
 
 
 
