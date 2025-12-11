@@ -20,12 +20,12 @@ C is compiler based programming language.
  //   gcc filename.c
  //    ./a.out
  //example
- /* 
+ 
  #include<stdio.h>
  void main(){
     printf("This is a way to print any message!!");
  }
- */
+ 
 
  //format specifier: %d for int, %c for character, %f for float, %lf for double
  //Data type : integer, float, double, char, array of char is called string but there is no specific string data type
@@ -34,7 +34,7 @@ C is compiler based programming language.
  // Data type should be specified to each variable ex: int num = 12;
 // \n (backslash n[\n] is used to go in new line.)
 
- /* 
+ 
  #include<stdio.h>
  int main(){
     printf("This is way to print any message.\n");
@@ -48,11 +48,11 @@ C is compiler based programming language.
 
 
     return 0;
- } */
+ } 
 
  //Conditional statement
  //WAP to find greater number between two number
- /* 
+ 
  #include<stdio.h>
  int main(){
     int num1, num2;
@@ -71,13 +71,13 @@ C is compiler based programming language.
          printf("%d is greater than %d.",num2,num1);
     }
 
- } */
+ } 
 
  //Loop: for, while, switch case
 
  //for loop
  //WAP to find sum of natural number from 1 to 100.
- /* 
+ 
  #include <stdio.h>
  int main(){
 
@@ -89,12 +89,12 @@ C is compiler based programming language.
 
     return 0;
  }
- */
+ 
 
 
  //while loop
  //WAP to find sum of only odd number from 1 to 100.
- /* 
+ 
  #include<stdio.h>
  int main(){
     int i = 1;
@@ -114,14 +114,14 @@ C is compiler based programming language.
     printf("The sum of only even number from 1 to 100 is %d.",esum);
 
     return 0;
- } */
+ } 
 
 
 
  //Switch case
  //It used for you have limited option[ ex: Traffic Light]
  //WAP to show weather according using switch case
-/* 
+
  #include<stdio.h>
  int main(){
     int day;
@@ -159,4 +159,31 @@ C is compiler based programming language.
  }
 
 
-  */
+  
+
+
+
+// 11 Dec 2025
+ //WAP to find simple interest
+ #include<stdio.h>
+ int  main(){
+    int P,T,R;
+    //Use space to enter multiple value
+    printf("Enter P, T and R: ");
+    scanf("%d%d%d",&P,&T,&R);
+    float si =(P*T*R)/100;
+    printf("The simple interest is %f.",si);
+
+    return 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
