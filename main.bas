@@ -19,3 +19,18 @@ For i = 1 To 10
     Print i
 Next i
 
+
+REM WAP to find area using sub procedure
+Declare sub area(l,b)
+Cls
+Input "Enter length"; l
+Input "Enter breadth"; b
+Call area(l, b)
+End
+
+
+Sub area (l, b)
+    a = l * b
+    Print a
+End Sub
+
