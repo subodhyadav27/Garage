@@ -77,3 +77,33 @@ display("Bhole Shankar",12,8,98023354,"Kailash -12")
 display("Mohan",34,12,9802323232,"Mathura-8")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#WAP
+#WAP to find greatest number 2 number
+num1 = int(input("Enter 1st num: "))
+num2 =
+
+
+
+
+
+
