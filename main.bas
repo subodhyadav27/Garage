@@ -52,6 +52,19 @@ end function
 
 
 
+REM WAP to find perimeter using sub procedure
+Declare sub perimeter(l,b)
+cls
+input"Enter length";l
+Input"Enter breadth";l
+call perimeter(l,b)
+end
+
+sub perimeter(l,b)
+perimeter = 2*(l+b)
+print p
+end sub
+
 
 
 
