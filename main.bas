@@ -34,3 +34,29 @@ Sub area (l, b)
     Print a
 End Sub
 
+
+REM WAP to find area using function procedure
+
+Declare function area(l,b)
+cls
+input "Enter length";l
+input"Enter breadth";b
+x = area(l,b)
+print x
+end
+
+function area(l,b)
+Ar =l*b
+ area = Ar
+end function
+
+
+
+
+
+
+
+
+
+
+
